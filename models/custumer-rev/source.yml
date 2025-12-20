@@ -1,0 +1,13 @@
+sources:
+  - name: landing
+    database: SALES_DWH
+    schema: LANDING
+    tables:
+      - name: customers
+        identifier: customers
+
+      - name: orders
+        identifier: orders
+
+      - name: orderitems
+        identifier: orderitems
